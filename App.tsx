@@ -9,10 +9,22 @@ export default function App() {
   return (
     <View className="flex-1 bg-white justify-center items-center px-6">
 
+      {/* Header */}
+      <View className="w-full items-center mb-8">
+        <Text className="text-3xl font-bold text-gray-800">
+          Bem-vindo(a)!
+        </Text>
+
+        <Text className="text-gray-500 mt-2 text-base">
+          Login to your account
+        </Text>
+      </View>
+
+      {/* Container */}
       <View className="w-full rounded-[35px] px-8 py-12 items-center">
 
         {/* Avatar */}
-        <View className="w-28 h-28 bg-gray-200 rounded-full items-center justify-center mb-10 -mt-10">
+        <View className="w-28 h-28 bg-gray-200 rounded-full items-center justify-center mb-10 -mt-6">
           <Image
             source={require("./assets/perfil.png")}
             className="w-14 h-14 opacity-70"
@@ -63,6 +75,7 @@ export default function App() {
           </Text>
         </TouchableOpacity>
 
+        {/* Criar conta */}
         <Text className="text-gray-400 text-sm">
           Don't have an account?{" "}
           <Text className="text-pink-600 font-semibold">
