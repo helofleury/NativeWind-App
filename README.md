@@ -2,7 +2,7 @@
 
 ## 📌 Descrição
 
-Este projeto consiste no desenvolvimento de uma tela de login mobile utilizando **React Native** com **NativeWind (Tailwind CSS)** para estilização.
+Este projeto consiste no desenvolvimento de uma tela de login mobile utilizando **React Native** com **NativeWind** para estilização.
 
 O objetivo é aplicar conceitos de:
 - Componentização
@@ -34,24 +34,15 @@ O objetivo é aplicar conceitos de:
 ---
 
 ## 📂 Estrutura do Projeto
+```
 ├── 📁 components
 │ ├── 📄 Button.tsx
 │ └── 📄 ThemeToggle.tsx
 └── 📄 App.tsx
-
-
+```
 - **Button** → componente reutilizável  
 - **ThemeToggle** → controle de tema (light/dark)  
 - **App.tsx** → estrutura principal da aplicação  
-
----
-
-## 🧩 Conceitos Aplicados
-
-- Separação de responsabilidades  
-- Criação de componentes reutilizáveis  
-- Uso de props para controle de estado  
-- Padronização de estilização com NativeWind  
 
 ---
 
@@ -61,10 +52,10 @@ O objetivo é aplicar conceitos de:
 
 ## 👥 Integrantes
 
-- Heloísa Fleury Jardim — RM556378  
-- Juan Fuentes Rufino — RM557673  
-- Paulo Henrique Monteiro Golovanevksy — RM555300  
-- Pedro Henrique Silva Batista — RM558137  
-- Rickelmyn de Souza Ruescas — RM556055  
+- Heloísa Fleury Jardim - RM556378  
+- Juan Fuentes Rufino - RM557673  
+- Paulo Henrique Monteiro Golovanevksy - RM555300  
+- Pedro Henrique Silva Batista - RM558137  
+- Rickelmyn de Souza Ruescas - RM556055  
 
 ---
