@@ -1,113 +1,73 @@
-### Template React Native com Expo + NativeWind
+## 📱 App - Fiap
 
-Este repositório é um template para iniciar rapidamente um app React Native utilizando Expo, TypeScript e NativeWind (Tailwind CSS para React Native). Ele já vem configurado com as dependências e arquivos necessários para começar a estilizar com classes utilitárias.
+## 📌 Descrição
 
-### Tecnologias
-- **Expo**: fluxo de desenvolvimento simplificado para React Native
-- **React Native**: desenvolvimento mobile nativo com React
-- **TypeScript**: tipagem estática para maior segurança
-- **NativeWind**: estilização usando utilitários à la Tailwind
+Este projeto consiste no desenvolvimento de uma tela de login mobile utilizando **React Native** com **NativeWind (Tailwind CSS)** para estilização.
 
-### Pré-requisitos
-- Node.js LTS instalado
-- Expo CLI (opcional) ou npx
-- iOS Simulator/Xcode ou Android Studio/Emulador, ou o aplicativo Expo Go no celular
+O objetivo é aplicar conceitos de:
+- Componentização
+- Estilização moderna com NativeWind
+- Organização de código
+- Modo claro/escuro (Dark Mode)
 
-### Como iniciar
-1. Instale as dependências:
-```bash
-npm install
-```
-2. Inicie o projeto:
-```bash
-npm run start
-```
-3. Escolha a plataforma:
-```bash
-# no terminal do Expo
-i  # iOS
-a  # Android
-w  # Web (quando aplicável)
-```
+---
 
-### Scripts úteis
-- `npm run start`: inicia o Metro/Expo
-- `npm run android`: abre no emulador Android
-- `npm run ios`: abre no simulador iOS
-- `npm run web`: abre no navegador (quando aplicável)
+## 🚀 Funcionalidades
 
-### Estrutura principal
-```
-assets/               # imagens e fontes
-styles/               # estilos globais e presets do NativeWind
-types/                # tipos e declarações auxiliares
-App.tsx               # entrada principal do app
-babel.config.js       # plugin do nativewind e presets do Expo
-metro.config.js       # config do Metro (resolução e assets)
-tailwind.config.js    # configuração do NativeWind/Tailwind
-nativewind-env.d.ts   # tipos do NativeWind
-tsconfig.json         # configuração TypeScript
-```
+- 🌗 Alternância entre modo claro e escuro
+- 👤 Campo de Username
+- 🔒 Campo de Password
+- ✅ Opção "Remember me"
+- 🔑 Botão de login reutilizável
+- 🔗 Opção de login com Google
+- 🎨 Interface moderna e responsiva
 
-### Configuração do NativeWind
-O template já inclui as configurações essenciais para o NativeWind funcionar corretamente.
+---
 
-- `tailwind.config.js`: define o preset e paths a serem analisados
-```js
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    './App.{js,jsx,ts,tsx}',
-    './app/**/*.{js,jsx,ts,tsx}',
-    './components/**/*.{js,jsx,ts,tsx}',
-    './styles/**/*.{js,jsx,ts,tsx}',
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
-```
+## 🛠️ Tecnologias Utilizadas
 
-- `babel.config.js`: adiciona o plugin do NativeWind
-```js
-module.exports = function(api) {
-  api.cache(true);
-  return {
-    presets: ['babel-preset-expo'],
-    plugins: ['nativewind/babel'],
-  };
-};
-```
+- React Native
+- Expo
+- NativeWind (Tailwind CSS para React Native)
+- TypeScript
 
-- `nativewind-env.d.ts`: fornece dicas de tipo
-```ts
-/// <reference types="nativewind/types" />
-```
+---
 
-Exemplo de uso no `App.tsx`:
-```tsx
-import { Text, View } from 'react-native';
+## 📂 Estrutura do Projeto
+/components
+Button.tsx
+ThemeToggle.tsx
 
-export default function App() {
-  return (
-    <View className="flex-1 items-center justify-center bg-white">
-      <Text className="text-xl font-semibold text-blue-600">
-        Template Expo + NativeWind
-      </Text>
-    </View>
-  );
-}
-```
+App.tsx
 
-### Dicas e resolução de problemas
-- Se classes não aplicarem estilo, confirme os caminhos em `content` do `tailwind.config.js`.
-- Garanta que o plugin `nativewind/babel` esteja no `babel.config.js`.
-- Após alterar `tailwind.config.js`, reinicie o bundler do Expo.
-- Em iOS/Android, limpe cache quando necessário:
-```bash
-expo start -c
-```
 
-### Licença
-Este projeto é disponibilizado como template educacional. Adapte conforme a sua necessidade.
+- **Button** → componente reutilizável  
+- **ThemeToggle** → controle de tema (light/dark)  
+- **App.tsx** → estrutura principal da aplicação  
+
+---
+
+## 🧩 Conceitos Aplicados
+
+- Separação de responsabilidades  
+- Criação de componentes reutilizáveis  
+- Uso de props para controle de estado  
+- Padronização de estilização com NativeWind  
+
+---
+
+## 📸 Preview do App
+
+<p align="center">
+  <img width="300" src="https://github.com/user-attachments/assets/6cf8b851-b70a-4e90-91f2-11222d798caa" />
+</p>
+
+## 👥 Integrantes
+
+- Heloísa Fleury Jardim — RM556378  
+- Juan Fuentes Rufino — RM557673  
+- Paulo Henrique Monteiro Golovanevksy — RM555300  
+- Pedro Henrique Silva Batista — RM558137  
+- Rickelmyn de Souza Ruescas — RM556055  
+
+---
