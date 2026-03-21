@@ -34,11 +34,10 @@ O objetivo é aplicar conceitos de:
 ---
 
 ## 📂 Estrutura do Projeto
-/components
-Button.tsx
-ThemeToggle.tsx
-
-App.tsx
+├── 📁 components
+│ ├── 📄 Button.tsx
+│ └── 📄 ThemeToggle.tsx
+└── 📄 App.tsx
 
 
 - **Button** → componente reutilizável  
