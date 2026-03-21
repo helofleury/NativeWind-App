@@ -2,9 +2,11 @@
 
 ## 📌 Descrição
 
-Este projeto consiste no desenvolvimento de uma tela de login mobile utilizando **React Native** com **NativeWind** para estilização.
+Este projeto consiste no desenvolvimento inicial de uma tela de login para aplicação mobile, utilizando React Native 
+em conjunto com NativeWind para estilização. O objetivo do projeto é evoluir o aplicativo atual da FIAP, propondo melhorias 
+na interface, na usabilidade e na organização do código, por meio da adoção de tecnologias modernas e boas práticas de desenvolvimento.
 
-O objetivo é aplicar conceitos de:
+Conceitos aplicados:
 - Componentização
 - Estilização moderna com NativeWind
 - Organização de código
