@@ -58,9 +58,7 @@ App.tsx
 
 ## 📸 Preview do App
 
-<p align="center">
-  <img width="300" src="https://github.com/user-attachments/assets/6cf8b851-b70a-4e90-91f2-11222d798caa" />
-</p>
+<img width="588" height="599" alt="tela_app" src="https://github.com/user-attachments/assets/6cf8b851-b70a-4e90-91f2-11222d798caa" />
 
 ## 👥 Integrantes
 
